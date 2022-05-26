@@ -1,0 +1,6 @@
+Kicker: (8913, 128)
+WhoScored: (17132, 128)
+SofaScore: (2390, 128)
+The Guardian: (566, 128)
+SkySports: (9236, 128)
+Bild: (5452, 128)

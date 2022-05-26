@@ -1,0 +1,136 @@
+# v1: version 1 row ids
+# competition: name of the league
+# competition id: id of the league
+# date: date
+# match: match and the results
+# match_id: id of the match
+# team: the team of the player
+# team_id: id of the team
+# player: the name of the player
+# player id: id of the player
+# is_human: rating source
+# rating: adjusted rating                               -- remove
+# original_rating: match rating of player               -- adjust this
+
+# ss_goals: 
+# ss_assists
+# ss_shots_ontarget
+# ss_shots_offtarget
+# ss_shotsblocked
+# ss_chances2score
+# ss_drib_success
+# ss_drib_unsuccess
+# ss_keypasses
+# ss_touches
+# ss_passes_acc
+# ss_passes_inacc
+# ss_crosses_acc
+# ss_crosses_inacc
+# ss_lballs_acc
+# ss_lballs_inacc
+# ss_grduels_w
+# ss_grduels_l
+# ss_aerials_w
+# ss_aerials_l
+# ss_poss_lost
+# ss_fouls
+# ss_wasfouled
+# ss_clearances
+# ss_stop_shots
+# ss_interceptions
+# ss_tackles
+# ss_dribbled_past
+# ss_tballs_acc
+# ss_tballs_inacc
+# ss_ycards
+# ss_rcards
+# ss_dangmistakes
+# ss_countattack
+# ss_offsides
+# ss_goals_ag_otb
+# ss_goals_ag_itb
+# ss_saves_itb
+# ss_saves_otb
+# ss_saved_pen
+# ss_missed_penalties
+# ss_owngoals
+
+# sna_degree_centrality
+# sna_betweenness_centrality
+# sna_closeness_centrality
+
+# sna2_flow_centrality
+# sna2_flow_centrality_nolog
+# sna2_flow_success
+# sna2_betweenness2shotsont
+# sna2_betweenness2shotsofft
+# sna2_betweenness2goals
+# sna2_betweenness2finishingzone
+# sna2_success_ratio
+
+# motifs_team_abcd
+# motifs_team_abab
+# motifs_team_abac
+# motifs_team_abca
+# motifs_team_abcb
+# motifs_team_abcd_reluse
+# motifs_team_abab_reluse
+# motifs_team_abac_reluse
+# motifs_team_abca_reluse
+# motifs_team_abcb_reluse
+# motifs_abcd
+# motifs_abab
+# motifs_abac
+# motifs_abca
+# motifs_abcb
+# motifs_abcd_reluse
+# motifs_abab_reluse
+# motifs_abac_reluse
+# motifs_abca_reluse
+# motifs_abcb_reluse
+
+# xg_player_shots
+# xg_blocked
+# xg_conceded_gk
+# xg_saved_gk
+# xg_index
+# xg_index_gk
+
+# opp_teamid: team id of the opponent
+# opp_xg
+# opp_rating
+# opp_rating_original
+# opp_gk_rating
+# opp_bestdf_rating
+# opp_bestmf_rating
+# opp_bestfw_rating
+# opp_chances2score
+# opp_countattacks
+# opp_rcards
+# opp_goals
+
+# team_xg
+# team_chances2score
+# team_countattacks
+# team_rcards
+# team_goals
+
+# win: whether team won
+# lost: whether team lost
+# team_rating: adjusted team rating                     -- remove
+# team_rating_original: avg rating of the team players
+# team_pos_rating: avg rating of players in the same pos    -- check if this is adjusted or not
+# past_performances: last 5 match ratings                   -- check if this is adjusted or not
+# is_home_team: whether team is home team
+# minutesplayed: minutes the player played
+# game_duration: game duration, 90 or 120
+# position: pos of player
+# position_role: detailed pos of player
+# rat: source of rating 
+# kicker: dummy rat                                     -- remove
+# bild: dummy rat                                       -- remove
+# skysports: dummy rat                                  -- remove
+# goalkeeper: dummy position                            -- remove
+# defender: dummy position                              -- remove
+# midfielder: dummy position                            -- remove
+# forward: dummy position                               -- remove

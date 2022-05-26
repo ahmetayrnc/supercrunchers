@@ -1,0 +1,3 @@
+team: 62
+position_role: 16
+competition: 4

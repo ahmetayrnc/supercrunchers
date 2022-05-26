@@ -1,0 +1,6 @@
+# Kicker 1-6: 1 good, 6 bad
+# WhoScores 0-10: 10 good, 0 bad
+# SofaScore 0-10: 10 good, 0 bad
+# The Guardian 0-10: 10 good, 0 bad
+# SkySports 0-10: 10 good, 0 bad
+# Bild 1-6: 1 good, 6 bad
