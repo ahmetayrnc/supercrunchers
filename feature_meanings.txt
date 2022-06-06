@@ -98,12 +98,12 @@
 
 # opp_teamid: team id of the opponent
 # opp_xg
-# opp_rating
-# opp_rating_original
-# opp_gk_rating
-# opp_bestdf_rating
-# opp_bestmf_rating
-# opp_bestfw_rating
+# opp_rating                                        -- remove
+# opp_rating_original                               -- remove
+# opp_gk_rating                                     -- remove
+# opp_bestdf_rating                                 -- remove
+# opp_bestmf_rating                                 -- remove
+# opp_bestfw_rating                                 -- remove
 # opp_chances2score
 # opp_countattacks
 # opp_rcards

@@ -1,0 +1,8 @@
+{
+    "jupyter.kernels.filter": [
+        {
+            "path": "/Users/ahmetayrnc/.local/share/virtualenvs/ml_challenge_2021_10-4VBC6Auw/bin/python",
+            "type": "pythonEnvironment"
+        }
+    ]
+}
