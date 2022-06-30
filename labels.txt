@@ -1,0 +1,138 @@
+\begin{longtable}{p{0.32\textwidth} p{0.6\textwidth}}
+\caption{Feature included in the dataset and their explanations.} \\
+Feature & Explanation \\
+\endfirsthead
+\caption[]{Feature included in the dataset and their explanations.} \\
+Feature & Explanation \\
+\endhead
+\multicolumn{2}{r}{Continued on next page} \\
+\endfoot
+\endlastfoot
+competition & Name of the competition \\
+competition\_id & ID of the competition in WyScout Data \\
+date & Date of the match \\
+match & Name of the match and the mastch result \\
+match\_id & ID of the match in WyScout Data \\
+team & Name of the team \\
+team\_id & ID of the team in WyScout data \\
+player & Name of the player \\
+player\_id & ID of the player in WyScout data \\
+is\_human & Dummy: 1 if rating is human-made \\
+rating & Standarized rating \\
+original\_rating & Original rating given by the \\
+ss\_goals & Number of goals scored by the player \\
+ss\_assists & Number of assists made by the player \\
+ss\_shots\_ontarget & Number of shots that were on target by the player \\
+ss\_shots\_offtarget & Number of shots that were off target by the player \\
+ss\_shotsblocked & Shots that were blocked by an opponent by the player \\
+ss\_chances2score & Chances to score that the player had during the game, according to WyScout \\
+ss\_drib\_success & Number of successful dribbles by the player \\
+ss\_drib\_unsuccess & Number of unsuccessful dribbles by the player \\
+ss\_keypasses & Number of key passes (passes that were immediately followed by a shot) \\
+ss\_touches & Number of times the player has touched the ball during the game, for any reason \\
+ss\_passes\_acc & Number of passes the player successfully completed in the game \\
+ss\_passes\_inacc & Number of innaccurate (not completed) passes of the player in the game \\
+ss\_crosses\_acc & Number of accurate (completed) crosses by the player in the game \\
+ss\_crosses\_inacc & Number of inaccurate crosses of the player in the game \\
+ss\_lballs\_acc & Accurate long passes made by the player (reached a team-mate) \\
+ss\_lballs\_inacc & Inaccurate long passes made by the player (did not reach a team-mate) \\
+ss\_grduels\_w & Number of ground duels won by the player over an opposing player \\
+ss\_grduels\_l & Number of ground duels lost by the player and won by the opposing player \\
+ss\_aerials\_w & Number of aerial duels won by the player over an opposing player \\
+ss\_aerials\_l & Number of aerial duels lost by the player \\
+ss\_poss\_lost & Number of times the player lost possession of the ball, for any reason \\
+ss\_fouls & Number of fouls made by the player \\
+ss\_wasfouled & Number of times the player was fouled by an opposing player \\
+ss\_clearances & Number of clearances made by the player \\
+ss\_stop\_shots & Number of shots from opposing players that were blocked by the player \\
+ss\_interceptions & Number of interceptions made by the player \\
+ss\_tackles & Number of tackles made by the player \\
+ss\_dribbled\_past & Number of times the player was successfully dribbled by an opposition player \\
+ss\_tballs\_acc & Number of accurate through passes made by the player \\
+ss\_tballs\_inacc & Number of inaccurate through passes made by the player \\
+ss\_ycards & Yellow cards received by the player \\
+ss\_rcards & Red cards received by the player \\
+ss\_dangmistakes & Dangerous mistakes made by the player that led to a difficult situation \\
+ss\_countattack & Number of counter attacks in which the player participated \\
+ss\_offsides & Number of offsides caused by the player \\
+ss\_goals\_ag\_otb & Number of goals conceded from outside the box (Goalkeepers) \\
+ss\_goals\_ag\_itb & Number of goals conceded from inside the box (Goalkeepers) \\
+ss\_saves\_itb & Number of saves made from inside the box (Goalkeepers) \\
+ss\_saves\_otb & Number of saves made from outside the box (Goalkeepers) \\
+ss\_saved\_pen & Number of saved penalty kicks \\
+ss\_missed\_penalties & Number of penalty kicks missed by the player \\
+ss\_owngoals & Number of own goals made by the player \\
+sna\_degree\_centrality & Degree Centrality from all-passes-aggregated network \\
+sna\_betweenness\_centrality & Betweenness Centrality from all-passes-aggregated network \\
+sna\_closeness\_centrality & Closeness Centrality from all-passes-aggregated network \\
+sna2\_flow\_centrality & Logarithm of Flow Centrality from play-by-play networks \\
+sna2\_flow\_centrality\_nolog & Flow Centrality (no logarithm) from play-by-play analyses networks \\
+sna2\_flow\_success & Flow Success from play-by-play analyses networks \\
+sna2\_betweenness2shotsont & Betweenness to Shots On Target, from play-by-play analysis networks \\
+sna2\_betweenness2shotsofft & Betweenness to Shots Off Target, from play-by-play analysis networks \\
+sna2\_betweenness2goals & Betweenness to Goals, from play-by-play analysis networks \\
+sna2\_betweenness2finishingzone & Betweenness to Finishing Zone, from play-by-play analysis networks \\
+sna2\_success\_ratio & Success/Fail Ratio to Finishing Zone, from play-by-play analysis networks \\
+motifs\_team\_abcd & Number of ABCD motifs completed by the team \\
+motifs\_team\_abab & Number of ABAB motifs completed by the team \\
+motifs\_team\_abac & Number of ABAC motifs completed by the team \\
+motifs\_team\_abca & Number of ABCA motifs completed by the team \\
+motifs\_team\_abcb & Number of ABCB motifs completed by the team \\
+motifs\_team\_abcd\_reluse & Team's relative use of ABCD motif as compared with the other motifs \\
+motifs\_team\_abab\_reluse & Team's relative use of ABAB motif as compared with the other motifs \\
+motifs\_team\_abac\_reluse & Team's relative use of ABAC motif as compared with the other motifs \\
+motifs\_team\_abca\_reluse & Team's relative use of ABCA motif as compared with the other motifs \\
+motifs\_team\_abcb\_reluse & Team's relative use of ABCB motif as compared with the other motifs \\
+motifs\_abcd & Number of ABCD motifs completed by the player \\
+motifs\_abab & Number of ABAB motifs completed by the player \\
+motifs\_abac & Number of ABAC motifs completed by the player \\
+motifs\_abca & Number of ABCA motifs completed by the player \\
+motifs\_abcb & Number of ABCB motifs completed by the player \\
+motifs\_abcd\_reluse & Player's relative use of ABCD motif as compared with the other motifs \\
+motifs\_abab\_reluse & Player's relative use of ABAB motif as compared with the other motifs \\
+motifs\_abac\_reluse & Player's relative use of ABAC motif as compared with the other motifs \\
+motifs\_abca\_reluse & Player's relative use of ABCA motif as compared with the other motifs \\
+motifs\_abcb\_reluse & Player's relative use of ABCB motif as compared with the other motifs \\
+xg\_player\_shots & Expected Goals of the player (sum of Expected Goals of all the shots he took) \\
+xg\_blocked & Expected Goals Blocked by the player (sum of Expected Goal's values of all the shots) \\
+xg\_conceded\_gk & Sum of the Expected Goal's values of all the actual goals conce (Goalkeepers) \\
+xg\_saved\_gk & sum of the Expected Goal's values of all the shots (Goalkeepers) \\
+xg\_index & Actual Goals by the player divided by Expected Goals by the player \\
+xg\_index\_gk & Expected Goals of all shots that the goalkeeper received during (Goalkeepers) \\
+opp\_teamid & ID of the Opponent Team in the WyScout data \\
+opp\_xg & Sum of Expected Goal's values of all shots made by the opponent team \\
+opp\_rating & Average Rating of the Opponent Team \\
+opp\_rating\_original & Average Rating of the Opponent Team (on its original scale) \\
+opp\_gk\_rating & Rating of the Opponent Team's Goalkeeper during the game \\
+opp\_bestdf\_rating & Rating of the best-rated Defender of the Opponent Team \\
+opp\_bestmf\_rating & Rating of the best-rated Midfielder of the Opponent Team \\
+opp\_bestfw\_rating & Rating of the best-rated Forward of the Opponent Team \\
+opp\_chances2score & Total Chances to Score of the Opponent Team \\
+opp\_countattacks & Number of Counter Attacks of the Opponent Team \\
+opp\_rcards & Number of Red Cards of the opponent team \\
+team\_xg & Sum of Expected Goal's values of all shots made by the team \\
+team\_chances2score & Total Chances to Score by the team \\
+team\_countattacks & Number of Counter Attacks of the team \\
+team\_rcards & Red Cards received by the team \\
+team\_goals & Number of goals scored by the team \\
+opp\_goals & Number of goals scored by the Opponent team \\
+win & Dummy: 1 if team won the match \\
+lost & Dummy: 1 if team lost the match \\
+team\_rating & Average Rating of the player's teammates during the game \\
+team\_rating\_original & Average Rating of the team during the game, in original scale \\
+team\_pos\_rating & Average Rating of the player's nearest teammates \\
+past\_performances & Average Rating of player's last 5 matches \\
+is\_home\_team & Dummy: 1=the team is Home team \\
+minutesplayed & Minutes played by the player in the match \\
+game\_duration & Total number of minutes of the match \\
+position & 0=GK, 1=DF, 2=MF, 3=FW \\
+position\_role & 0=GK, 1=DR, 2=DC, 3=DL, 4=DMR, 5=DMC, 6=DML, 7=MR, 8=MC, 9=ML, 10=AMR, 11=AMC \\
+rat & Rater: 0=Kicker, 1=Bild, 2=SkySports, 3=TheGuardian, 4=WhoScored, 5=SofaScore \\
+kicker & Dummy: 1= rater Kicker \\
+bild & Dummy: 1= rater Bild \\
+skysports & Dummy: 1=rater SkySports \\
+goalkeeper & Dummy: 1=position is Goalkeeper \\
+defender & Dummy: 1= position is Defender \\
+midfielder & Dummy: 1=position is Midfielder \\
+forward & Dummy: 1=position is Forward \\
+\end{longtable}
